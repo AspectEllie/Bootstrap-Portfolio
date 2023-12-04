@@ -1,27 +1,52 @@
-
-body{
-  font-family: 'Poppins',sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
-nav{
+
+/*Nav*/
+nav {
   background-color: #f6eff1;
 }
 
-#about{
-  background-color: #fffaf9;
+#about {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
 }
 
-#social-list{
+#about-container {
+  background-color: #ffffff38;
+  border-radius: 15px;
+  color: #1a1818;
+}
+
+#about-container .btn {
+  background-color: #eeaeca;
+}
+
+#social-list {
   font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
-#profile-picture{
+#profile-picture {
   width: 100%;
   border-radius: 50%;
   padding: 20px;
 }
 
-#skills{
-  background-color: #eda4a6;
+#skills {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 4%,
+    rgba(148, 204, 233, 0.6811099439775911) 100%
+  );
 }
 
 .skill-icon {
@@ -46,16 +71,45 @@ nav{
   color: black;
 }
 
-#projects{
-background-color:#0f8790;
+#projects {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 0.10688025210084029) 100%
+  );
 }
 
-.project{
+.project {
   background-color: rgb(255, 255, 255);
   padding: 20px;
 }
 
-.project img{
+.project img {
   width: 100%;
 }
 
+.project .description {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 0.249) 4%,
+    rgba(148, 205, 233, 0.235) 100%
+  );
+  border-radius: 15px;
+  padding-top: 10px;
+}
+
+#contact {
+  background: rgb(116, 41, 86);
+  background: linear-gradient(
+    90deg,
+    rgba(116, 41, 86, 0.40379901960784315) 0%,
+    rgba(118, 176, 145, 0.5494572829131652) 41%,
+    rgba(177, 186, 98, 0.48503151260504207) 60%
+  );
+}
+
+footer{
+  background-color: #f6eff1; 
+}
