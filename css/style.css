@@ -7,6 +7,10 @@ nav {
   background-color: #f6eff1;
 }
 
+section {
+  /*border-top: solid 5px grey;*/
+}
+
 #about {
   background: rgb(238, 174, 202);
   background: radial-gradient(
@@ -34,6 +38,10 @@ nav {
   height: 100%;
 }
 
+#social-list i {
+  color: #fff;
+}
+
 #profile-picture {
   width: 100%;
   border-radius: 50%;
@@ -41,15 +49,10 @@ nav {
 }
 
 #skills {
-  background: rgb(238, 174, 202);
-  background: radial-gradient(
-    circle,
-    rgba(238, 174, 202, 1) 4%,
-    rgba(148, 204, 233, 0.6811099439775911) 100%
-  );
 }
 
 .skill-icon {
+  color: #a2959b;
 }
 
 #skills i {
@@ -100,6 +103,10 @@ nav {
   padding-top: 10px;
 }
 
+.project .description a {
+  color: #555;
+}
+
 #contact {
   background: rgb(116, 41, 86);
   background: linear-gradient(
@@ -110,6 +117,31 @@ nav {
   );
 }
 
-footer{
-  background-color: #f6eff1; 
+#contact .btn{
+  background-color: #eeaeca;
+}
+
+footer {
+  background-color: #f6eff1;
+}
+
+
+@media screen and (max-width: 767px) {
+  #social-list {
+    flex-direction: row;
+  }
+
+  #profile-picture {
+    max-width: 300px;
+  }
+
+  .fa-4x {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .fa-4x {
+    font-size: 2em;
+  }
 }
