@@ -19,3 +19,8 @@
 #git {
   color: black;
 }
+
+.project{
+  background-color: grey;
+  padding: 20px;
+}
