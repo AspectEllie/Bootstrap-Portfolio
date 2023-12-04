@@ -1,3 +1,29 @@
+
+body{
+  font-family: 'Poppins',sans-serif;
+}
+nav{
+  background-color: #f6eff1;
+}
+
+#about{
+  background-color: #fffaf9;
+}
+
+#social-list{
+  font-size: 40px;
+}
+
+#profile-picture{
+  width: 100%;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+#skills{
+  background-color: #eda4a6;
+}
+
 .skill-icon {
 }
 
@@ -20,7 +46,16 @@
   color: black;
 }
 
+#projects{
+background-color:#0f8790;
+}
+
 .project{
-  background-color: grey;
+  background-color: rgb(255, 255, 255);
   padding: 20px;
 }
+
+.project img{
+  width: 100%;
+}
+
