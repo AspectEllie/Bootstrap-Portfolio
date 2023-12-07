@@ -92,7 +92,7 @@ section {
   width: 100%;
 }
 
-.project .description {
+.project .card-body {
   background: rgb(238, 174, 202);
   background: radial-gradient(
     circle,
@@ -101,9 +101,10 @@ section {
   );
   border-radius: 15px;
   padding-top: 10px;
+  height: 100%;
 }
 
-.project .description a {
+.project .card-body a {
   color: #555;
 }
 
@@ -117,14 +118,13 @@ section {
   );
 }
 
-#contact .btn{
+#contact .btn {
   background-color: #eeaeca;
 }
 
 footer {
   background-color: #f6eff1;
 }
-
 
 @media screen and (max-width: 767px) {
   #social-list {
