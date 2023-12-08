@@ -7,6 +7,15 @@ nav {
   background-color: #f6eff1;
 }
 
+.nav-item {
+  padding: 5px;
+}
+
+.nav-link:hover {
+  color: rgba(0, 0, 255);
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+
 section {
   /*border-top: solid 5px grey;*/
 }
@@ -137,6 +146,10 @@ section {
 
 footer {
   background-color: #f6eff1;
+}
+
+footer .nav-link {
+  color: #000;
 }
 
 @media screen and (max-width: 767px) {
